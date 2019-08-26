@@ -2,23 +2,36 @@ def find_element_index(array, value_to_find)
  counter = 0
  
  while counter < array.length do 
-   puts array[counter]
-   counter += 1
+   
+   
+   if array[counter] == value_to_find
+   return counter
+  
 end
-# return value_to_find.index
+ counter += 1
+ end
+end
+
+
+def find_max_value(array)
+  counter = 0
+  
+  while counter < array.length do
+  
+    counter + 1
+  end
+  
+ return counter.max
 end
 
 
 
-# def find_max_value(array)
-# counter = 0
- 
-# while counter < array.length do
-#   puts array[counter]
-# end
-# return array.max
- 
-end
+
+
+
+
+
+
 
 def find_min_value(array)
   # Add your solution here
