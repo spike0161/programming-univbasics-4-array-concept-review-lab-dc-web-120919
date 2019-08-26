@@ -13,15 +13,15 @@ end
 end
 
 
-# def find_max_value(array)
-#   counter = 0
+def find_max_value(array)
+  counter = 0
   
-#   while counter < array.length do
-#   counter += 1
-#   end
+  while counter < array.length do
+  counter += 1
+  end
   
-# return array.max
-# end
+return array.max
+end
 
 
 
